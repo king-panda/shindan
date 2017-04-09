@@ -1,0 +1,58 @@
+body > div{
+	width: 640px;
+	margin: auto;
+}
+
+.pageContainer h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 30px 0;
+	text-align: center;
+}
+
+.pageContainer h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.pageContainer ul{
+	text-align: center;
+}
+
+.pageContainer ul li{
+	display: inline;
+	margin: 10px;
+}
+
+.pageContainer .start{
+	text-align: center;
+}
+
+.pageContainer p{
+	margin: 20px 0px;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+/*
+アニメーション
+*/
+
+.pageContainer {
+	opacity: 1;
+	transition:all .5s linear 0s;
+}
+
+.pageContainer.ng-leave-active {
+	opacity: 0;
+}
+
+.pageContainer.ng-enter{
+	opacity: 0;
+}
+
+.pageContainer.ng-enter-active {
+	opacity: 0;
+ }

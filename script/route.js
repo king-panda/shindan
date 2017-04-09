@@ -1,0 +1,19 @@
+angular.module('myApp',['ngRoute', 'ngAnimate'])
+.config(function($routeProvider){
+	$routeProvider
+	.when('/',{
+		templateUrl:'views/top.html',
+		controller:'TopViewController'
+	})
+	.when('/:path',{
+		templateUrl:'views/question.html',
+		controller:'QuestionViewController'
+	})
+	.when('/result/:path',{
+		templateUrl:'views/result.html',
+		controller:'ResultViewController'
+	})
+	.otherwise({
+		redirectTo:'/'
+	})
+});
