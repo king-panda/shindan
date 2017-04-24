@@ -3,19 +3,19 @@ angular.module('myApp')
 	return {
 		'1_a': {
 			'title': '1_A',
-			'str': 'ハンバーグはデミグラスソース派である',
+			'str': 'お好み焼きにご飯は許せない',
 			'yes':'2_b',
 			'no':'2_c'
 		},
 		'2_b': {
 			'title': '2_B',
-			'str': 'カレーは福神漬ではなくラッキョウ派である',
+			'str': 'シチューにご飯はぜんぜんアリ',
 			'yes':'3_d',
 			'no':'3_e'
 		},
 		'2_c': {
 			'title': '2_C',
-			'str': 'どちらかと言うと甘党である',
+			'str': 'うどんよりそばが好き',
 			'yes':'3_e',
 			'no':'3_f'
 		},
@@ -27,33 +27,33 @@ angular.module('myApp')
 		},
 		'3_e': {
 			'title': '3_E',
-			'str': 'シチューにご飯は許せない',
+			'str': '朝食はパンよりご飯派である',
 			'yes':'4_g',
 			'no':'4_i'
 		},
 		'3_f': {
 			'title': '3_F',
-			'str': 'お好み焼きにご飯は許せない',
+			'str': '脂っぽい料理にハマっている',
 			'yes':'4_h',
 			'no':'4_i'
 		},
 		'4_g': {
 			'title': '4_G',
-			'str': '好きな物は、最初ではなく最後に食べる派である',
-			'yes':'result/nobunaga',
-			'no':'result/marry'
+			'str': 'BBQをするなら山より海',
+			'yes':'result/ryoma',
+			'no':'result/nobunaga'
 		},
 		'4_h': {
 			'title': '4_H',
-			'str': '付け合わせのパセリは食べる？',
-			'yes':'result/patra',
-			'no':'result/ryoma'
+			'str': '好きな物は最後にとっておく',
+			'yes':'result/rosanjin',
+			'no':'result/napoleon'
 		},
 		'4_i': {
 			'title': '4_I',
-			'str': 'BBQをするなら山より海',
-			'yes':'result/napoleon',
-			'no':'result/rosanjin'
+			'str': '日々の食事に食物繊維の摂取は欠かせない',
+			'yes':'result/marry',
+			'no':'result/patra'
 		}
 	};
 })
